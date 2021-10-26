@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(237, 241, 245);
+    height: 100vh; width: 100vw;
+    display: flex; flex-direction: column;
+    justify-content: center; align-items: center;
+}
+
+.container{
+    display: flex; flex-direction: column;
+    justify-content: center; align-items: center;
+    gap: 10px;
+}
+
+h1{
+    display: flex; flex-direction: row;
+    align-items: center; gap: 10px;
+}
+h1, h4{margin: 2px;}
+.tracinho{
+    background-color: rgb(212, 212, 212); height: 2px; width: 50px;
+}
+span{
+    color: rgb(109, 193, 221);
+}
+
+.conteudo{
+    display: flex; gap: 10px;
+
+}
+
+input{
+    outline: none; border: none;
+    background-color: rgb(231, 231, 231);
+    padding: 5%; border-radius: 5px;
+}
+
+.dados{
+    background-color: rgb(231, 231, 231); padding: 2% 5%;
+    border-radius: 10px; width: 50vw;
+}
+.dadoCep{
+    display: flex; flex-direction: column;
+    justify-content: center; align-items: center;
+}
+.dadosAll{
+    display: flex; flex-direction: row;
+    justify-content: center; justify-content: space-around;
+    font-size: 20px;
+}
+
+.right{
+    padding-right: 10%;
+}
+
+button{
+    background: none; outline: none; border: none;
+    background-color: rgb(109, 193, 221); color: white;
+    padding: 0% 8%; border-radius: 5px;
+}
+
+
